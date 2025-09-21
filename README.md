@@ -26,24 +26,19 @@ npm or yarn
 A Google Gemini API Key. You can get one from Google AI Studio.
 Installation & Setup
 Clone the repository:
-code
-Bash
+
 git clone https://github.com/your-username/dao-chatbot.git
 cd dao-chatbot
 Install dependencies:
-code
-Bash
+
 npm install
 Set up Environment Variables:
 The application loads the Gemini API key from environment variables. While the project is set up for a serverless environment like Google AI Studio, you would typically create a .env file in the root for local development:
-code
-Code
+
 API_KEY=YOUR_GEMINI_API_KEY
 Run the application:
 This project is designed to run within the Google AI Studio environment. To run it locally, you would need to set up a development server (like Vite or Create React App) and ensure the process.env.API_KEY is correctly populated.
-📂 Project Structure
-code
-Code
+
 /
 ├── components/          # UI Components (ChatWindow, ProjectCard, etc.)
 │   ├── icons/           # SVG icon components
