@@ -1,0 +1,5 @@
+{
+  "name": "Crowdfunding DAO Chatbot",
+  "description": "An AI-powered chatbot interface to interact with a simulated crowdfunding DAO. Users can inquire about projects, contribute funds, vote on proposals, and manage their involvement in a conversational way.",
+  "requestFramePermissions": []
+}
